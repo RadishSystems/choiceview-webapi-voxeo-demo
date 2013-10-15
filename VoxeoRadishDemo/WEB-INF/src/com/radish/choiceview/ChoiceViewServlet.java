@@ -68,7 +68,7 @@ public class ChoiceViewServlet extends HttpServlet {
 			return false;
 			
 		}else{
-			ChoiceViewChecker checker = new ChoiceViewChecker(sessionID, cvs, sessionURL, basicHttpID);
+			ChoiceViewPollingThread checker = new ChoiceViewPollingThread(sessionID, cvs, sessionURL, basicHttpID);
 			checker.setLogger(mylogger);
 			Thread t = new Thread(checker);
 			t.start();
