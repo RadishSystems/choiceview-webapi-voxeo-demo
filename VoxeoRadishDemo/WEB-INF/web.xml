@@ -16,8 +16,8 @@ Copyright 2004-2011 Avaya Inc.
     
     <context-param>
         <param-name>runtime-Platform</param-name>
-        <param-value>Experience Portal</param-value>
-        <description>Runtime Platform {Desktop|Experience Portal|Voice Portal|Other|IR|MPS}</description>
+        <param-value>Other</param-value>
+        <description></description>
     </context-param>
     
     <context-param>
@@ -63,10 +63,7 @@ Copyright 2004-2011 Avaya Inc.
         
             <init-param>
                 <param-name> DDAppHome </param-name>          
-              
-                <param-value>  C:\\Users\\Derek\\Documents\\Workspace\\speech\\VoxeoRadishDemo</param-value> 
-                 <!--  <param-value> /usr/share/tomcat6/webapps/VoxeoRadishDemo </param-value> -->
-                
+                <param-value> /usr/share/tomcat6/webapps/VoxeoRadishDemo </param-value>    
         	</init-param>
    
         <load-on-startup>1</load-on-startup>
